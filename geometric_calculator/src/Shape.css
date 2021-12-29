@@ -1,0 +1,14 @@
+.shape{
+  display: grid;
+  grid-template-columns: repeat(3,20rem);
+  justify-content: center;
+  /* align-items: center; */
+  grid-gap: 5rem;
+}
+.details{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.rectangle img{
+  width: 300px;
+}
